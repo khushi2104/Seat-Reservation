@@ -1,0 +1,45 @@
+/* Home.css (create a separate CSS file for your Home component) */
+.home-container {
+    background-image: url('https://www.jaquar.com/images/uploaded/Study%20Room%20Ideas/Jaquar%20Light%20Chapter%20Banner%20Study%20Room%20-%20April%203.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .faculty-button, .student-button {
+    padding: 10px 20px;
+    font-size:large;
+    font-weight:600;
+    color: rgb(10, 7, 7);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #efeeed, #6b6b69);
+
+  }
+  
+  .faculty-button:hover, .student-button:hover {
+    background-color: #c18b17;
+  }
+  
